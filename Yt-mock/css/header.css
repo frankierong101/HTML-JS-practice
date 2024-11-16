@@ -1,0 +1,78 @@
+#header {
+    background-color: white;
+    position: sticky;
+    top: 0px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 20px;
+    z-index: 100;
+}
+#left img{
+    height: 50px;
+}
+#youtube-button {
+    background-image: url(../pictures/Youtube-logo-full.png);
+    height: 50px;
+    width: 80px;
+    background-size: contain;
+    border: none;
+}
+
+#mid {
+    display: flex;
+    align-items: center;
+}
+#search-bar {
+    flex: 1;
+    height: 40px;
+    width: 400px;
+    border: 1px solid;
+    border-radius: 2px 0px 0px 2px;
+    box-sizing: border-box;
+
+}
+#search-bar::placeholder {
+    font-weight: 900;
+    padding-left: 10px;
+    font-size: 18px;
+
+}
+
+#search-button {
+    background-color: white;
+    border: 1px solid;
+    border-radius: 0px 2px 2px 0px;
+    margin-left: -4px;
+    margin-top: -1px;
+    height: 40px;
+    width: 50px; 
+
+    background-image: url(../pictures/search-icon.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+
+    display: inline-block; 
+    vertical-align: middle;
+}
+#voice-button {
+    background-color: white;
+    border: 1px solid;
+    margin-top: -1px;
+    margin-left: 10px;
+    height: 50px;
+    width: 50px; 
+    border-radius: 100%;
+
+    background-image: url(../pictures/mic.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block; 
+    vertical-align: middle;
+    background-size: 80%;
+}
